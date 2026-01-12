@@ -1,1 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>QUIZ SUPER HERO</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div>
+			<h1>QUELLE SUPER HERO ES-TU ?</h1>
+			<h2>Ici, tu va decouvrir quel super hero te correspond. </h2>
+			<p> 
+		</div>
+	
+	</body>
+</html>
 
