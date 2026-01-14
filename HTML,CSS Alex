@@ -1,0 +1,142 @@
+HTML:
+<!DOCTYPE html>
+<html lang="fr">
+	<head><link rel ="stylesheet" href ="style.css"/>
+        <title>Page des supers héros</title>
+		<meta charset= "utf-8">
+	
+	</head>
+	<body>
+	<header>
+		     <h1>Tableau des super héros</h1>
+
+	        <nav>
+			    <ul>
+				 
+				</ul>
+			</nav>
+				
+	
+	</header>
+			<main>
+			        <section id="accueil" class="section">
+					        <h2>Le tableau de nos 11 supers héros.</h2>
+					</section>
+					<section id="tableau" class="section">
+						<h2>Tableau héros</h2>
+		                <table>
+							      <table>
+                                        <tr>
+                                            <th>Prénom</th>
+											<th>Photos</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Superman</td>
+                                            <td><img src="images/superman.jpg" alt="Superman dans le ciel"></ br> <p>Superman dans le ciel</p></td>
+                                        </tr>
+                                        <tr>
+											<td>Wonder Woman</td>
+											<td><img id"wonder" src="images/wonder_woman.jpg" alt="La magnifique Wonder Woman"></ br> <p>La magnifique Wonder Woman</p></td>
+										</tr>
+										<tr>
+                                            <td>Captain Marvel</td>
+                                            <td><img id"captain" src="images/captain_marvel.jpg" alt="Captain Marvel dans l'espace"></ br> <p>Captain Marvel dans l'espace</p></td>
+                                        </tr>
+										<tr>
+                                            <td>Spider Trisomique</td>
+                                            <td><img id"spider" src="images/spiderman.png" alt="Spiderman dans sa commune"></ br> <p>Spiderman dans sa commune</p></td>
+                                        </tr>
+										<tr>
+                                            <td>Bébé Groots</td>
+                                            <td><img id"baby" src="images/baby_groot.jpg" alt="Baby Groots qui dance"></ br> <p>Baby Groots qui dance</p></td>
+                                        </tr>
+										<tr>
+                                            <td>La Chose</td>
+                                            <td><img id"lachose" src="images/lachose.jpg" alt="La chose entrant en action"></ br> <p>La chose entrant en action</p></td>
+                                        </tr>
+										<tr>
+                                            <td>Surfeur D'argent</td>
+                                            <td><img id"surfeur" src="images/surfeur.jpg" alt="Le Surfeur D'argent sur sa planche"></ br> <p>Le Surfeur D'argent sur sa planche</p></td>
+                                        </tr>
+										<tr>
+                                            <td>Robin</td>
+                                            <td><img id"robin" src="images/robin.jpg" alt="Robin l'amis de Batman"></ br> <p>Robin l'amis de Batman</p></td>
+                                        </tr>
+										<tr>
+                                            <td>Cat Woman</td>
+                                            <td><img id"cat" src="images/catwoman.jpg" alt="Cat Woman le chat noir"></ br> <p>Cat Woman le chat noir</p></td>
+                                        </tr>
+										<tr>
+                                            <td>L'acrobate</td>
+                                            <td><img id"joseph" src="images/joseph.png" alt="Joseph en combat"></ br> <p>Joseph en combat</p></td>
+                                        </tr>
+										<tr>
+                                            <td>Mister Poulain</td>
+                                            <td><img id"surfeur" src="images/surfeur.jpg" alt="Le Surfeur D'argent sur sa planche"></ br> <p>Le Surfeur D'argent sur sa planche</p></td>
+                                        </tr>
+
+						</table>
+						    
+						
+						
+					</section>
+	        </main>
+	<footer>
+	         <p>TP3 - NSI HTML/CSS - 2025</p>
+	</footer>
+	
+	</body>
+</html>
+
+
+
+
+
+CSS:
+body {
+  background-color: #ffffff;
+  margin: 0;
+  
+}
+h1  {
+	text-align: center;
+	font-size: 4em;
+}
+h2 {
+  font-size: 3em;
+  font-weight: 800;
+  color: black;
+  font-style: Arial;
+
+}
+
+
+p  {
+	font-size: 2em;
+	color: #424545;
+	font-weight: 800;
+	font-style: Arial;
+}
+
+img {
+	width:30%;
+	height:auto;
+}
+header  {
+	background-color: #28D4D4;
+	color: #FFFCFC;
+	font-size: 2em;
+    font-style: Arial;
+	text-align: right;
+	
+
+}
+table {
+  border: 1px solid black;
+}
+
+th,
+td {
+  border: 1px solid black;
+  
+}
