@@ -2,22 +2,62 @@
 <html lang="fr">
 	<head>
 		<title>QUIZ SUPER HERO</title>
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="CSS page presentation .css" />
+		
 	</head>
-	<body>
-		<div>
-			<h1>QUELLE SUPER HERO ES-TU ?</h1>
-			<h2>Ici, tu va decouvrir quel super hero te correspond. </h2>
-			<p> Bienvenue sur notre site de quiz interactif dédié à l’univers des super-héros ! 🦸‍♂️🦸‍♀️
-As-tu déjà rêvé de savoir quel super-héros sommeille en toi ? Grâce à notre quiz amusant et intuitif, découvre en quelques minutes quel héros correspond le mieux à ta personnalité.
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+		<body>
+			<footer>
+			  <div class="menu-deroulant">
+				<div id="menuContent" class="menu-content">
+				  <a href="mentions-legales.html">Mentions légales</a>
+				  <a href="Contactez-nous.html">Contactez-nous</a>
+				</div>
+			  </div>
+			</footer>
+				
 
-À travers une série de questions originales et variées, nous analysons tes choix, ton caractère, tes valeurs et ta façon de réagir face aux défis. Plutôt courageux et protecteur ? Intelligent et stratégique ? Mystérieux et indépendant ? Chaque réponse te rapproche un peu plus de ton alter ego héroïque.
 
-Notre site a été conçu pour être simple, rapide et accessible à tous. Que tu sois fan de comics, de films ou simplement curieux, ce quiz est fait pour toi. À la fin, tu obtiendras un résultat personnalisé accompagné d’une description détaillée de ton super-héros, de ses pouvoirs et de ce qui te rend unique.
+			<div>
+				<h1>QUELLE SUPER HERO ES-TU ?</h1>
+			
+				<h2>Ici, tu va decouvrir quel super hero te correspond !!! </h2>
+				<p> As-tu déjà rêvé de savoir quel super-héros te ressemble le plus ? Grâce à notre quiz interactif, découvre en quelques minutes le héros qui correspond le mieux à ta personnalité, tes valeurs et ta façon de réagir face aux défis.
 
-Prêt à révéler le héros qui est en toi ? Lance le quiz et entre dans l’aventure ! 💥
-		</div>
-	
-	</body>
+	Ce quiz a été conçu pour offrir une expérience à la fois ludique, immersive et personnalisée. Chaque question te plonge dans des situations variées du quotidien ou inspirées de l’univers des super-héros, afin d’analyser tes choix et tes réflexes.
+				</p>
+				<p>⚙️ Comment fonctionne le quiz ?
+
+Le quiz repose sur un algorithme de calcul par points.
+Chaque question propose plusieurs réponses possibles, et chaque réponse est associée à un certain nombre de points attribués à différents super-héros.
+
+Tu choisis la réponse qui te correspond le plus
+
+L’algorithme analyse tes choix
+
+Les points sont cumulés tout au long du quiz
+
+À la fin, le super-héros ayant le score le plus élevé est celui qui te correspond le mieux
+
+Ce système permet d’obtenir un résultat cohérent et personnalisé, basé sur l’ensemble de tes réponses et non sur une seule question.
+</p>
+<p>🎯 Un résultat personnalisé et amusant
+
+À l’issue du quiz, tu découvriras :
+
+Le super-héros qui te correspond
+
+Une description détaillée de ton profil
+
+Les traits de caractère, forces et valeurs que vous partagez
+
+Que tu sois un leader courageux, un stratège réfléchi, un protecteur altruiste ou un esprit rebelle, le quiz mettra en lumière le héros qui sommeille en toi.
+</p>
+<p>🚀 Prêt à relever le défi ?
+
+Le quiz est rapide, intuitif et accessible à tous. Il ne te reste plus qu’à répondre honnêtement aux questions et à laisser l’algorithme faire le reste.
+			</div>
+		</body>
 </html>
-
