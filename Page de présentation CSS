@@ -1,11 +1,30 @@
 h1 {
-	font-family : arial;
+	color : red ;
+	font-size:500%;
+	font-family : Bangers ;
 	text-align : center ; 
+	text-shadow : 3px -2px black ;
 	}
 h2 { 
-	font-family : arial;
-	margin : 10px
+	text-align : center;
+	font-family : Bangers ;
+	margin : 10px ;
+	color : red;
+	font-size:300%;
+	text-shadow : 3px -2px black ;
+}
+p { 
+	text-align : center;
+	font-family : Bangers;
+	color : #FFDB58;
+	text-shadow : 1px -1px black ;
 }
 body {
-	background :#86beda;
+	background :skyblue;
+}
+body {
+  background-image: url("Font page presentation.jpg");
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: repeat;
 }
