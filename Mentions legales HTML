@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Contactez-nous</title>
+		<link rel="stylesheet" href="CSS mentions legales.css" />
+	</head>
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+		<div>
+			<h1> Mentions légales
+				🦸 QUEL SUPER-HÉROS ES-TU ? 🦸 </h1>
+			<div>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+			<div>📝 ÉDITEUR DU SITE</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;🌐 Nom du site : QUEL SUPER HERO ES-TU ?</div>	
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;👤 Propriétaire : Alexis Yanis Noam</div>	
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;📍 Adresse : 20 Rue du Château de Rezé, 44400 Rezé</div>	
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;📧 Email : quelsuperheroesttu@gmail.com</div>	
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;📱 Téléphone : +33 7 83 16 40 66</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;✍️ Directeur de publication : Noam Pellerin</div>	
+			<div>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+			<div>🎨 PROPRIÉTÉ INTELLECTUELLE</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;Le quiz "Quel super-héros es-tu ?" et l'ensemble de son contenu (textes, images, graphismes, logos, vidéos)</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;sont la propriété exclusive d'Alexis Yanis Noam, sauf mention contraire.</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;⚡ Les personnages de super-héros mentionnés dans ce quiz sont la propriété de leurs détenteurs respectifs</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;(Marvel, DC Comics, Reel). Ce quiz est proposé à titre de divertissement uniquement et n'est pas affilié,</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;sponsorisé ou approuvé par ces sociétés.</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;⚠️ Toute reproduction, distribution, modification ou utilisation du contenu de ce site sans autorisation</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;préalable est interdite et peut faire l'objet de poursuites judiciaires.</div>
+			<div>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+			<div>🔒 DONNÉES PERSONNELLES ET RGPD</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés,</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition aux données vous concernant.</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;📊 Données collectées</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ce quiz peut collecter les informations suivantes :</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✨ Réponses au questionnaire (anonymisées)</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✨ Données de navigation (cookies)</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✨ Adresse email (si fournie volontairement)</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;💼 Utilisation des données</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Les données collectées sont utilisées uniquement pour :</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✨ Fournir les résultats du quiz</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✨ Améliorer l'expérience utilisateur</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✨ Réaliser des statistiques anonymes</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;🛡️ Vos droits</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vous pouvez exercer vos droits en nous contactant à : quelsuperheroesttu@gmail.com</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;👨‍💼 Responsable du traitement : Noam Pellerin</div>
+			<div>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+			<div>🍪 COOKIES</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;Ce site utilise des cookies pour améliorer votre expérience de navigation et réaliser des statistiques de visite.</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;Vous pouvez paramétrer vos préférences en matière de cookies dans les réglages de votre navigateur.</div>
+			<div>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+			<div>⚖️ LIMITATION DE RESPONSABILITÉ</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;Les résultats du quiz sont fournis à titre indicatif et de divertissement uniquement.</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;Ils ne constituent en aucun cas une analyse psychologique professionnelle.</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;L'éditeur ne saurait être tenu responsable :</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✨ Des dommages directs ou indirects résultant de l'utilisation du site</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✨ De l'indisponibilité temporaire du site</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✨ De tout contenu publié par des tiers</div>
+			<div>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+			<div>🇫🇷 DROIT APPLICABLE</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;Les présentes mentions légales sont soumises au droit français. Tout litige relatif à l'utilisation de ce site</div>
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;relève de la compétence exclusive des tribunaux français.</div>
+			<div>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+			<div>📅 Dernière mise à jour : Janvier 2026</div>
+		</div>
+</html> 	
