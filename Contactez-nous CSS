@@ -1,0 +1,18 @@
+h1 {
+	color : blue ;
+	font-size:500%;
+	font-family : Bangers ;
+	text-align : center ; 
+	text-shadow : 3px -2px black ;
+}
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:500%;
+    
+}
+.contact-container {
+    text-align: center;
+}
