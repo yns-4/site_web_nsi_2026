@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<title>Contactez-nous</title>
-		<link rel="stylesheet" href="CSS contactez-nous.css" />
-	</head>
-	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-		<div>
-			<h1> CONTACTEZ-NOUS </h1>
-			<div class="contact-info">
-    </style>
+<head>
+    <meta charset="UTF-8">
+    <title>Contactez-nous</title>
+    <link rel="stylesheet" href="CSS contactez-nous.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 </head>
 <body>
+    
+    <button class="bouton-retour" onclick="window.location.href='Page de presentation HTML.html'">◀️</button>
+    
     <div class="contact-container">
-        <h2>Pour nous contacter</h2>
+        <h1>CONTACTEZ-NOUS</h1>
+        
         <div class="contact-info">
             <div class="info-item">
                 <h2>📧 E-mail</h2>
-                <h3>quelsuperheroesttu@gmail.com</h3>
+                
+                <button class="bouton-copier" onclick="navigator.clipboard.writeText('quelsuperheroestu@gmail.com')">
+                    quelsuperheroestu@gmail
+                </button>
             </div>
+            
             <div class="info-item">
                 <h2>📞 Téléphone</h2>
                 <h3>+33 7 83 16 40 66</h3>
             </div>
+            
             <div class="info-item">
                 <h2>📍 Adresse</h2>
                 <h3>20 Rue du Château de Rezé, 44400 Rezé</h3>
