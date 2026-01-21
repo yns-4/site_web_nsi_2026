@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("image/Font_page_presentation.png");
+    background-size: cover;      
+	background-position: center; 
+	background-repeat:repeat;
+    padding: 20px;
+}
+
+.quiz-container {
+    background: #FFE100;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+h3 {
+    margin-bottom: 15px;
+	font-family:Bangers;
+	font-size:175%;
+	color:#FFFFFF
+;
+	text-shadow : 1px -1px black ;
+}
+
+.choice {
+    margin: 10px 0;
+	font-size:150%;
+	font-family:Bangers;
+	text-shadow : 1px -1px black ;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.quiz-container img {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+h1 { 
+	color : red ;
+	font-size:500%;
+	font-family : Bangers ;
+	text-align : center ; 
+	text-shadow : 3px -2px black ;
+}
+
+h2 {
+	color : #00A6FF ;
+	font-size: 200%;
+	font-family : Bangers ;
+	text-align : center ; 
+	text-shadow : 3px -2px black ;
+}
+
+
+	
