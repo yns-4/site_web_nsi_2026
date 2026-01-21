@@ -1,1 +1,8 @@
+body { 
+	background-color : skyblue ; 
+	text-align : center ;
+	font-family : bangers ;
+	
+}
 
+	
