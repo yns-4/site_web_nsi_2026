@@ -36,9 +36,12 @@ Que tu sois un leader courageux, un stratège réfléchi, un protecteur altruist
 <p>🚀 Prêt à relever le défi ?
 Le quiz est rapide, intuitif et accessible à tous. Il ne te reste plus qu'à répondre honnêtement aux questions et à laisser l'algorithme faire le reste.
 		</div>
+	<div>
+	<button id="quizButton">🔴 ACCES QUIZ ❓​🎬​​</button>
+	
 	</body>
 	<footer>	
-		<button id="menuButton">⥯</button>
+		<button id="menuButton">  </button>
 		<div id="menuDropdown" style="display:none;">
 			<button onclick="window.location.href='Contactez-nous.html'">
 				Contactez-nous
