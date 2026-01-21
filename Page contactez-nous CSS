@@ -1,6 +1,6 @@
 h1 {
 	color : blue ;
-	font-size:500%;
+	font-size:200%;
 	font-family : Bangers ;
 	text-align : center ; 
 	text-shadow : 3px -2px black ;
@@ -10,9 +10,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size:500%;
-    
+    font-size:150%;
+	border : black 2px ; 
+	text-align : center ;
+	border: 2px solid black;
 }
-.contact-container {
-    text-align: center;
+    
 }
