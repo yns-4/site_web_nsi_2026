@@ -3,61 +3,76 @@
 	<head>
 		<title>QUIZ SUPER HERO</title>
 		<link rel="stylesheet" href="CSS page presentation .css" />
-		
+		<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
 	</head>
-	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
-		<body>
-			<footer>
-			  <div class="menu-deroulant">
-				<div id="menuContent" class="menu-content">
-				  <a href="mentions-legales.html">Mentions légales</a>
-				  <a href="Contactez-nous.html">Contactez-nous</a>
-				</div>
-			  </div>
-			</footer>
-				
-
-
-			<div>
-				<h1>QUELLE SUPER HERO ES-TU ?</h1>
-			
-				<h2>Ici, tu va decouvrir quel super hero te correspond !!! </h2>
-				<p> As-tu déjà rêvé de savoir quel super-héros te ressemble le plus ? Grâce à notre quiz interactif, découvre en quelques minutes le héros qui correspond le mieux à ta personnalité, tes valeurs et ta façon de réagir face aux défis.
-
-	Ce quiz a été conçu pour offrir une expérience à la fois ludique, immersive et personnalisée. Chaque question te plonge dans des situations variées du quotidien ou inspirées de l’univers des super-héros, afin d’analyser tes choix et tes réflexes.
-				</p>
-				<p>⚙️ Comment fonctionne le quiz ?
-
+	<body>
+		<div>
+			<h1 id="titre">QUEL SUPER HERO ES-TU ?</h1>
+		</div>
+		<div>
+			<h2>Ici, tu va decouvrir quel super hero te correspond !!! </h2>
+		</div>
+			<p> As-tu déjà rêvé de savoir quel super-héros te ressemble le plus ? Grâce à notre quiz interactif, découvre en quelques minutes le héros qui correspond le mieux à ta personnalité, tes valeurs et ta façon de réagir face aux défis.
+Ce quiz a été conçu pour offrir une expérience à la fois ludique, immersive et personnalisée. Chaque question te plonge dans des situations variées du quotidien ou inspirées de l'univers des super-héros, afin d'analyser tes choix et tes réflexes.
+			</p>
+			<p>⚙️ Comment fonctionne le quiz ?
 Le quiz repose sur un algorithme de calcul par points.
 Chaque question propose plusieurs réponses possibles, et chaque réponse est associée à un certain nombre de points attribués à différents super-héros.
-
 Tu choisis la réponse qui te correspond le plus
-
-L’algorithme analyse tes choix
-
+L'algorithme analyse tes choix
 Les points sont cumulés tout au long du quiz
-
 À la fin, le super-héros ayant le score le plus élevé est celui qui te correspond le mieux
-
-Ce système permet d’obtenir un résultat cohérent et personnalisé, basé sur l’ensemble de tes réponses et non sur une seule question.
+Ce système permet d'obtenir un résultat cohérent et personnalisé, basé sur l'ensemble de tes réponses et non sur une seule question.
 </p>
 <p>🎯 Un résultat personnalisé et amusant
-
-À l’issue du quiz, tu découvriras :
-
+À l'issue du quiz, tu découvriras :
 Le super-héros qui te correspond
-
 Une description détaillée de ton profil
-
 Les traits de caractère, forces et valeurs que vous partagez
-
 Que tu sois un leader courageux, un stratège réfléchi, un protecteur altruiste ou un esprit rebelle, le quiz mettra en lumière le héros qui sommeille en toi.
 </p>
 <p>🚀 Prêt à relever le défi ?
-
-Le quiz est rapide, intuitif et accessible à tous. Il ne te reste plus qu’à répondre honnêtement aux questions et à laisser l’algorithme faire le reste.
-			</div>
-		</body>
+Le quiz est rapide, intuitif et accessible à tous. Il ne te reste plus qu'à répondre honnêtement aux questions et à laisser l'algorithme faire le reste.
+		</div>
+	</body>
+	<footer>	
+		<button id="menuButton">⥯</button>
+		<div id="menuDropdown" style="display:none;">
+			<button onclick="window.location.href='Contactez-nous.html'">
+				Contactez-nous
+			</button>
+			<button onclick="window.location.href='Mentions legales.html'">
+				Mentions légales
+			</button>
+		</div>
+	</footer>
+	<script>
+		const menuButton = document.getElementById('menuButton');
+		const menuDropdown = document.getElementById('menuDropdown');
+		
+		menuButton.addEventListener('click', function(e) {
+			e.stopPropagation();
+			menuDropdown.style.display = menuDropdown.style.display === 'block' ? 'none' : 'block';
+		});
+		
+		document.addEventListener('click', function() {
+			menuDropdown.style.display = 'none';
+		});
+		
+		menuDropdown.addEventListener('click', function(e) {
+			e.stopPropagation();
+		});
+		
+		const titre = document.getElementById('titre');
+		const texte = titre.textContent;
+		titre.textContent = '';
+		texte.split('').forEach((lettre, index) => {
+			const span = document.createElement('span');
+			span.textContent = lettre === ' ' ? '\u00A0' : lettre;
+			span.style.animationDelay = `${index * 0.1}s`;
+			titre.appendChild(span);
+		});
+	</script>
 </html>
