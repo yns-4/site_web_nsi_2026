@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Super Héros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>QUEL SUPER HÉROS ES-TU ?</h1>
+	<h2>Répond à ces question et découvre ton super-héros :</h2>
+</header>
+
+<div class="quiz-container">
+    <h3 id="question"></h3>
+    <div id="choices"></div>
+    <button onclick="nextQuestion()">Question suivante</button>
+</div>
+
+<script>
+const quiz = [
+    {
+        question: "Quelle qualité te décrit le mieux ?",
+        choices: ["Intelligence", "Courage", "Loyauté", "Créativité"]
+    },
+    {
+        question: "Face à un problème, tu préfères :",
+        choices: ["Réfléchir calmement", "Agir immédiatement", "Demander de l’aide", "Improviser"]
+    },
+    {
+        question: "Ton plus grand défaut serait :",
+        choices: ["Trop perfectionniste", "Impulsif", "Trop discret", "Têtu"]
+    },
+    {
+        question: "Si tu avais un super-pouvoir, ce serait :",
+        choices: ["Super-intelligence", "Super-force", "Invisibilité", "Vitesse"]
+    },
+    {
+        question: "Ton environnement préféré :",
+        choices: ["Une grande ville", "La nature", "Un laboratoire high-tech", "L’espace"]
+    },
+    {
+        question: "En équipe, tu es plutôt :",
+        choices: ["Le stratège", "Le leader", "Le soutien", "Le solitaire"]
+    },
+    {
+        question: "Comment gères-tu le stress ?",
+        choices: ["Tu analyses", "Tu fonces", "Tu parles à quelqu’un", "Tu fais de l’humour"]
+    },
+    {
+        question: "Ce qui te motive le plus :",
+        choices: ["La justice", "La protection des autres", "La reconnaissance", "Le dépassement de soi"]
+    },
+    {
+        question: "Ton arme idéale :",
+        choices: ["Ton cerveau", "Tes poings", "Des gadgets", "Rien, tu te débrouilles seul"]
+    },
+    {
+        question: "Ton pire ennemi serait :",
+        choices: ["Quelqu’un de plus intelligent", "Quelqu’un de plus fort", "La trahison", "L’ennui"]
+    },
+    {
+        question: "Comment te décrivent tes amis ?",
+        choices: ["Calme et réfléchi", "Courageux et protecteur", "Gentil et fiable", "Drôle et imprévisible"]
+    },
+    {
+        question: "Ta tenue idéale serait :",
+        choices: ["Discrète", "Impressionnante", "Fonctionnelle", "Originale"]
+    },
+    {
+        question: "Si tu perds un combat :",
+        choices: ["Tu analyses ton erreur", "Tu reviens plus fort", "Tu demandes conseil", "Tu changes de stratégie"]
+    },
+    {
+        question: "Ton objectif principal :",
+        choices: ["Sauver le monde", "Protéger tes proches", "Maintenir l’équilibre", "Être libre"]
+    },
+    {
+        question: "Quelle phrase te correspond le plus ?",
+        choices: ["« Le savoir est une arme »", "« Jamais abandonner »", "« Ensemble on est plus forts »", "« À ma façon »"]
+    }
+];
+
+let currentQuestion = 0;
+let answers = [];
+
+function loadQuestion() {
+    const q = quiz[currentQuestion];
+    document.getElementById("question").textContent = q.question;
+
+    const choicesDiv = document.getElementById("choices");
+    choicesDiv.innerHTML = "";
+
+    q.choices.forEach((choice, index) => {
+        const div = document.createElement("div");
+        div.className = "choice";
+        div.innerHTML = `
+            <label>
+                <input type="radio" name="choice" value="${index}">
+                ${choice}
+            </label>
+        `;
+        choicesDiv.appendChild(div);
+    });
+}
+
+function nextQuestion() {
+    const selected = document.querySelector('input[name="choice"]:checked');
+
+    if (!selected) {
+        alert("Veuillez choisir une réponse !");
+        return;
+    }
+
+    answers.push(parseInt(selected.value));
+    currentQuestion++;
+
+    if (currentQuestion < quiz.length) {
+        loadQuestion();
+    } else {
+        showResult();
+    }
+}
+
+function showResult() {
+    const total = answers.reduce((a, b) => a + b, 0);
+
+    let hero = "";
+    let image = "";
+
+    if (total <= 5) {
+        hero = "sPiDer-MAn";
+        image = '<img src="image/spiderman.png">';} 
+	else if (total <= 10) {
+        hero = "Super Poulin";
+        image = '<img src="image/poulain.png">';} 
+	else if (total <= 15) {
+        hero = "L’Acrobate";
+        image = '<img src="image/joseph.png">';} 
+	else if (total <= 20) {
+        hero = "Cat Woman";
+        image = '<img src="image/catwoman.jpg">';} 
+	else if (total <= 22) {
+        hero = "Robin";
+        image = '<img src="image/robin.jpg">';} 
+	else if (total <= 25) {
+        hero = "Bébé Groot";
+        image = '<img src="image/baby_groot.jpg">';} 
+	else if (total <= 30) {
+        hero = "La Chose";
+        image = '<img src="image/lachose.jpg">';} 
+	else if (total <= 35) {
+        hero = "Wonder Woman";
+        image = '<img src="image/wonder_woman.jpg">';} 
+	else if (total <= 38) {
+        hero = "Captain Marvel";
+        image = '<img src="image/captain_marvel.jpg">';} 
+	else if (total <= 40) {
+        hero = "Surfer d’argent";
+        image = '<img src="image/surfeur.jpg">';} 
+	else {
+        hero = "Superman";
+        image = '<img src="image/superman.jpg">';}
+
+    document.querySelector(".quiz-container").innerHTML = `
+        <h2>Résultat 🎉</h2>
+        <p>${hero}</p>
+        ${image}
+        <br><br>
+        <button onclick="location.reload()">Recommencer</button>
+    `;
+}
+loadQuestion();
+</script>
+
+</body>
+</html>
