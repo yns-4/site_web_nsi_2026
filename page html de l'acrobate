@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head><link rel ="stylesheet" href ="style2.css"/>
+        <title>L'Acrobate</title>
+		<meta charset= "utf-8">
+	
+	</head>
+	<body>
+			<div>
+					<h1>Voici la page de L'acrobate</h1>
+					<h2>Découvrez Joseph l'acrobate </h2>
+					
+					</div>
+			          <img src="images/joseph.png">
+			        </div>
+					
+					
+                                        
+<p>
+De sont vrai nom Joseph le terrien, </br>
+il ,est réputer pour ces figures spectaculaires qu’il met en œuvre dans sont lycéé en effet il est lycéen au lycée sont identités de super héros est cachés aux yeux du grand publicPersonne ne sait vraiment quand il est devenu un héros.
+Un jour, il faisait du parcours sur des toits pour le plaisir,</br>
+le lendemain il échappait à la police en courant sur les murs, avec des cheveux qui passaient du bleu au rouge sans prévenir.</br> 
+C’est là que les gens ont commencé à comprendre qu’il y avait un truc pas normal.</br>
+Ses cheveux, justement, sont sa marque de fabrique. Ils changent de couleur selon son humeur, son niveau de stress ou parfois sans aucune raison valable. </br>
+Rouge quand il est en pleine action, bleu quand il se concentre (ce qui arrive rarement), vert quand il récupère… et violet quand même lui n’a aucune idée de ce qui va se passer. </br>
+Les scientifiques appellent ça un phénomène inexpliqué. Lui appelle ça « encore un bug ».</br>
+Grâce à son agilité surnaturelle, il traverse la ville comme si les bâtiments étaient faits pour lui. </br>
+Toits, murs, rambardes : tout devient un terrain de jeu. Il saute, roule, glisse, disparaît. À ce stade, même la gravité hésite avant de le contredire.</br>
+Mais son pouvoir le plus redouté n’est ni sa vitesse, ni ses cheveux arc-en-ciel. Non. C’est sa voix.</br>
+Quand il fait face à un ennemi et qu’il commence à parler —« J-j-j-je v-v-vais t-t-te… »</br>
+le temps semble s’arrêter. </br>
+L’adversaire se fige, paralysé entre la peur, le malaise et l’envie irrépressible de finir la phrase à sa place. </br>
+Plus il stresse, plus l’effet est puissant. Certains criminels affirment être restés bloqués plusieurs minutes. </br>
+D’autres ne s’en sont jamais remis psychologiquement.</br>
+Tout ça à cause d’un accord. Un accord mystérieux, signé un jour sans trop lire, parce qu’il y avait marqué “gratuit” et “sans conséquence apparente”. </br>
+Résultat : des pouvoirs incroyables… mais jamais totalement fiables. Parfois tout fonctionne parfaitement. </br>
+Parfois ses cheveux deviennent noirs et il ne peut plus parler du tout. Impossible de se plaindre : il a coché “J’accepte”.</br>
+Aujourd’hui, la ville le connaît. Certains l’admirent, d’autres s’en méfient. Les assurances le détestent, les coiffeurs aussi. </br>
+Lui continue de courir sur les toits, de sauver des gens, de bégayer face au danger et de changer de couleur comme un feu tricolore mal réglé.</br>
+Un héros imparfait, imprévisible…</br>
+mais quand on l’entend dire :</br>
+« A-a-attends j-j-je v-v-vais t-t-t’expliquer… »</br>
+tout le monde sait que c’est déjà trop tard.</br>
+
+</p>
+			        
+					<tr>
+					<td><img src="images/Jo1.jpeg" alt="Joseph sur 2 mains"></ br> <p>Joseph sur 2 mains</p></td>
+					</tr>
+					<tr>
+					<td><img src="images/Jo2.jpeg" alt="Joseph sauvant Noam"></ br> <p>Joseph sauvant Noam</p></td>
+					</tr>
+					<tr>
+					<td><img src="images/Jo3.jpeg" alt="Joseph sur 1 main"></ br> <p>Joseph sur 1 main</p></td>
+					</tr>
+					
+					
+			
+			</div>
+</html>
+	
+	
