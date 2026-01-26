@@ -25,6 +25,7 @@ h2 {
 img {
 	width:30%;
 	height:auto;
+	transition: 0.5s ease-in-out;
 }
 header  {
 	color: #FFFCFC;
@@ -49,7 +50,7 @@ td {
 }
 
 img:hover {
-    transition: 0.5s ease-in-out;
+    
     transform: scale(1.4);
 }
 
