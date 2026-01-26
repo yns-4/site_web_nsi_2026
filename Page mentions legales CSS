@@ -1,8 +1,27 @@
 body { 
-	background-color : skyblue ; 
-	text-align : center ;
-	font-family : bangers ;
+	background-color : skyblue  ;
+	font-family: Georgia, serif;
+	text-align: center;
+}
+
+.bouton-retour {
+    font-size: 100%;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.5s all ease-in-out;
+ 
+}
+
+.bouton-retour:hover {
+    transform: scale(1.2);
+    color: #000000;
+    background-color: #FF0000;
+    border-radius: 10px;
 	
 }
 
-	
+
+
