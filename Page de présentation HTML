@@ -41,7 +41,7 @@ Le quiz est rapide, intuitif et accessible à tous. Il ne te reste plus qu'à r�
 	
 	</body>
 	<footer>	
-		<button id="menuButton">  </button>
+		<button id="menuButton"> + </button>
 		<div id="menuDropdown" style="display:none;">
 			<button onclick="window.location.href='Contactez-nous.html'">
 				Contactez-nous
@@ -76,6 +76,10 @@ Le quiz est rapide, intuitif et accessible à tous. Il ne te reste plus qu'à r�
 			span.textContent = lettre === ' ' ? '\u00A0' : lettre;
 			span.style.animationDelay = `${index * 0.1}s`;
 			titre.appendChild(span);
+		menuButton.addEventListener('click', () => {
+    window.scrollTo(0, document.body.scrollHeight);
+});
+
 		});
 	</script>
 </html>
