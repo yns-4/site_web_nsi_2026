@@ -50,6 +50,7 @@
 										<tr>
                                             <td>Spider Trisomique</td>
                                             <td><img id"spider" src="images/spiderman.png" alt="Spiderman dans sa commune"></ br> <p>Spiderman dans sa commune</p></td>
+											<td><a href="./spider Triso.html"target="_blank">Spider Trisomique</a>
                                         </tr>
 										<tr>
                                             <td>Bébé    Groots</td>
@@ -79,10 +80,12 @@
 										<tr>
                                             <td>L'acrobate</td>
                                             <td><img id"joseph" src="images/joseph.png" alt="Joseph en combat"></ br> <p>Joseph en combat</p></td>
+											<td><a href="./l'acrobate.html"target="_blank">L'acrobate</a>
                                         </tr>
 										<tr>
                                             <td>Mister Poulain</td>
                                             <td><img id"poulain" src="images/poulain.png" alt="Mister poulain avec encore tout ses cheveux"></ br> <p>Mister poulain avec encore tout ses cheveux</p></td>
+											<td><a href="./mr poulain.html"target="_blank">mr poulain</a>
                                         </tr>
 
 						</table>
@@ -97,5 +100,3 @@
 	
 	</body>
 </html>
-	}
-}
