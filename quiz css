@@ -8,7 +8,7 @@ body {
 }
 
 .quiz-container {
-    background: #FFE100;
+    background: #F2A000;
     padding: 20px;
     max-width: 500px;
     margin: auto;
