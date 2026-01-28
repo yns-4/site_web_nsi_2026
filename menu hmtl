@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu déroulant</title>
+	<link rel="stylesheet" href="menu_deroulant.css">
+
+    
+</head>
+
+<body>
+
+    <div class="menu">
+        <button class="menu-btn">Menu</button>
+        <div class="dropdown">
+            <a href="page1.html">Page 1</a>
+            <a href="page2.html">Page 2</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+</body>
+</html>
